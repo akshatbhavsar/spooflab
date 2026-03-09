@@ -1,0 +1,529 @@
+# SpoofLab - Advanced Email Spoofing Detection and Simulation Framework
+# Git Ignore File
+# Version: 1.0.0
+
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.spooflab-env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.DS_Store?
+Icon?
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.*.swp
+.*.swo
+
+# Configuration Files (Sensitive)
+# =========================
+config.json
+settings.json
+credentials.json
+secrets.json
+.spooflab/config.json
+.spooflab/settings.json
+.spooflab/credentials.json
+.spooflab/secrets.json
+
+# Log files
+# =========================
+*.log
+logs/
+spooflab_tests.log
+smtp_server.log
+spooflab_server.log
+*.log.gz
+*.log.zip
+
+# Test data
+# =========================
+test_emails/
+test_results/
+tmp_emails/
+email_samples/
+test_data/
+
+# Reports with potentially sensitive information
+# =========================
+reports/
+.spooflab/reports/
+*.report
+*.assessment
+reports/*.json
+reports/*.html
+reports/*.pdf
+reports/*.csv
+spooflab_report_*.json
+spooflab_report_*.html
+spooflab_report_*.pdf
+
+# User configuration directory contents
+# =========================
+.spooflab/config.json
+.spooflab/logs/
+.spooflab/reports/
+.spooflab/temp/
+.spooflab/tmp/
+.spooflab/cache/
+.spooflab/sessions/
+.spooflab/*.db
+.spooflab/*.sqlite
+
+# Email test files
+# =========================
+*.eml
+*.msg
+test_*.txt
+sample_*.eml
+email_drafts/
+outbox/
+
+# SMTP server temporary files
+# =========================
+smtp_temp/
+mail_queue/
+queue/
+spool/
+temp_mail/
+smtp_spool/
+
+# SSL/TLS certificates (if any)
+# =========================
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.cert
+*.cer
+certificates/
+certs/
+
+# Database files (if any)
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.mdb
+*.accdb
+data.db
+spooflab.db
+
+# Backup files
+# =========================
+*.bak
+*.backup
+*.old
+*.orig
+*.saved
+backup/
+backups/
+
+# Temporary files
+# =========================
+*.tmp
+*.temp
+temp/
+tmp/
+tempfiles/
+*.swp
+*.swo
+*~
+
+# Archive files
+# =========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tgz
+*.tar
+archives/
+dist/
+
+# Documentation build files
+# =========================
+docs/_build/
+docs/build/
+site/
+_site/
+.docusaurus/
+.docpress/
+
+# JetBrains IDEs
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Sublime Text
+# =========================
+*.sublime-project
+*.sublime-workspace
+.sublime-project
+.sublime-workspace
+
+# Vim
+# =========================
+*.swp
+*.swo
+Session.vim
+.vimrc.local
+.viminfo
+
+# Emacs
+# =========================
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Security sensitive files
+# =========================
+# NEVER commit these types of files for a security tool
+
+# API keys and tokens
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+api_keys.txt
+tokens.txt
+keys.txt
+secrets.txt
+auth_tokens.json
+*.key
+*.token
+credentials/
+
+# User credentials
+usernames.txt
+passwords.txt
+creds.txt
+users.txt
+accounts.txt
+credentials.txt
+.spooflab/credentials/
+.spooflab/users/
+.spooflab/creds/
+
+# Real email addresses
+# =========================
+real_emails.txt
+target_emails.txt
+email_lists.txt
+contacts.txt
+recipients.txt
+spooflab/targets/
+spooflab/lists/
+target_list.txt
+email_addresses.txt
+.test_emails.txt
+.valid_emails.txt
+
+# Production configuration
+# =========================
+production.json
+prod_config.json
+prod_settings.json
+config.prod.json
+settings.prod.json
+prod.env
+.production
+deployment/
+
+# SSH keys
+# =========================
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
+*.ppk
+ssh_keys/
+
+# Local environment variables
+# =========================
+.env.*
+.envrc
+.ENV
+.env.local
+.env.production
+.env.staging
+environment/
+
+# OS generated files
+# =========================
+.DS_Store
+.DS_Store?
+Icon?
+.Spotlight-V100
+.Trashes
+._*
+.AppleDouble
+.LSOverride
+._*
+
+# Windows image file caches
+# =========================
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.db
+
+# Folder config file
+# =========================
+Desktop.ini
+folder.ini
+*.ini
+
+# Recycle Bin used on file shares
+# =========================
+$RECYCLE.BIN/
+*.lnk
+*.url
+
+# Application specific
+# =========================
+node_modules/
+.npm/
+.sass-cache/
+package-lock.json
+yarn.lock
+composer.lock
+Gemfile.lock
+
+# Custom additions for SpoofLab
+# =========================
+
+# Installation artifacts
+install.log
+installation_*.log
+install_errors.log
+setup.log
+spooflab_install.log
+
+# Test results
+test_output/
+test_logs/
+junit.xml
+test-results/
+coverage/
+test-reports/
+.spooflab/tests/
+
+# Performance test results
+performance_*.json
+benchmark_*.txt
+benchmarks/
+performance/
+load_tests/
+
+# Documentation builds
+_site/
+.jekyll-cache/
+.jekyll-metadata
+docs/_site/
+docs/api/
+documentation/_build/
+
+# Local development
+# =========================
+local_*
+dev_*
+debug_*
+*.dev
+*.local
+development/
+scratch/
+sandbox/
+playground/
+experiments/
+
+# Docker related
+# =========================
+Dockerfile
+docker-compose.yml
+.dockerignore
+.docker/
+docker/
+
+# Virtual environment specific
+# =========================
+.spooflab-env/
+.spooflab-venv/
+venv-spooflab/
+
+# Jupyter notebooks (if any)
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# PyCharm
+# =========================
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+# =========================
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Compiled source
+# =========================
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+
+# Packages
+# =========================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.pkg
+*.deb
+*.rpm
+
+# Media
+# =========================
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+screenshots/
+images/media/
+
+# Emergency commits
+# =========================
+*.emergency
+*.crash
+*.stackdump
+*.core
+core.*
+
+# Never commit actual spoofing test results
+# =========================
+# These contain real email addresses and test data
+spoofing_results/
+phishing_tests/
+campaigns/
+.spooflab/campaigns/
+.spooflab/results/
+.spooflab/output/
+
+# Keep these commented unless you specifically want to ignore them
+# !.gitkeep
+# !.gitignore
+# !README.md
+# !LICENSE
+# !spooflab.py
+# !install.sh
+# !requirements.txt
