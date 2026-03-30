@@ -222,8 +222,10 @@ class SMTPTestServer:
             
             print(f"""
 ╔══════════════════════════════════════════════════════════════╗
-║                    EST SMTP SERVER v{__version__}                    ║
-║              Email Spoofing Tool - Server Mode               ║
+║                   SMTP SERVER v{__version__}          
+║
+║ SpoofLab:Advanced Email Spoofing Detection and Simulation Framework        
+║
 ╚══════════════════════════════════════════════════════════════╝
 
 🚀 Server Status: ACTIVE
@@ -495,15 +497,14 @@ class EST:
         """Print professional banner"""
         banner = f"""
 ╔══════════════════════════════════════════════════════════════╗
-║                    EST - Email Spoofing Tool                 ║
-║              Professional Security Assessment v{__version__}         ║
+║         SpoofLab: Advanced Email Spoofing Detection
+         and Simulation Framework v{__version__}               ║
 ║                                                              ║
-║    Advanced Email Security Testing Framework                 ║
 ║    For Authorized Penetration Testing Only                   ║
 ║    Educational & Research Purposes                           ║
 ║                                                              ║
-║  Author: {__author__}                                      ║
-║  License: {__license__}                                                ║
+║  Author: {__author__}                                        ║
+║  License: {__license__}                                      ║
 ╚══════════════════════════════════════════════════════════════╝
 
 ⚠️  LEGAL NOTICE: This tool is for authorized security testing only.
@@ -902,9 +903,8 @@ class EST:
             email_body = f"""{scenario.body}
 
 ────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
+SpoofLab Security Simulation — Authorized testing only.
+If unexpected, contact your IT security team.
 
 Test Details:
 • Scenario: {scenario.name}
@@ -912,7 +912,7 @@ Test Details:
 • Severity: {scenario.severity}
 • Timestamp: {datetime.now().isoformat()}
 
-EST v{__version__} - Professional Email Security Assessment Framework
+SpoofLab v{__version__} - Advanced Email Spoofing Detection and Simulation Framework
 ────────────────────────────────────────────────────────────────"""
             
             # Create text part with proper encoding
@@ -943,11 +943,10 @@ EST v{__version__} - Professional Email Security Assessment Framework
             email_body = f"""{body}
 
 ────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
+SpoofLab Security Simulation — Authorized testing only.
+If unexpected, contact your IT security team.
 
-EST v{__version__} - Professional Email Security Assessment Framework
+SpoofLab v{__version__} - Advanced Email Spoofing Detection and Simulation Framework
 ────────────────────────────────────────────────────────────────"""
             
             # Create text part with proper encoding
@@ -974,9 +973,8 @@ Content-Type: text/plain; charset=UTF-8
 {scenario.body}
 
 ────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
+SpoofLab Security Simulation — Authorized testing only.
+If unexpected, contact your IT security team.
 
 Test Details:
 • Scenario: {scenario.name}
@@ -984,7 +982,7 @@ Test Details:
 • Severity: {scenario.severity}
 • Timestamp: {datetime.now().isoformat()}
 
-EST v{__version__} - Professional Email Security Assessment Framework
+SpoofLab v{__version__} - Advanced Email Spoofing Detection and Simulation Framework
 ────────────────────────────────────────────────────────────────
 """
     
@@ -1001,11 +999,10 @@ Content-Type: text/plain; charset=UTF-8
 {body}
 
 ────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
+SpoofLab Security Simulation — Authorized testing only.
+If unexpected, contact your IT security team.
 
-EST v{__version__} - Professional Email Security Assessment Framework
+SpoofLab v{__version__} - Advanced Email Spoofing Detection and Simulation Framework
 ────────────────────────────────────────────────────────────────
 """
     
@@ -1049,7 +1046,7 @@ Examples:
   est logs --lines 50                       View recent test logs
   est report                                Generate assessment report
 
-EST v{__version__} - Professional Email Security Assessment Framework
+SpoofLab v{__version__} - Advanced Email Spoofing Detection and Simulation Framework
 Author: {__author__} | License: {__license__}
 
 ⚠️  LEGAL NOTICE: For authorized security testing only.
