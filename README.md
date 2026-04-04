@@ -8,8 +8,7 @@
 ███████║██║     ╚██████╔╝╚██████╔╝██║     ███████╗██║  ██║██████╔╝
 ╚══════╝╚═╝      ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝╚═════╝ 
 
-   Advanced Email Spoofing & Simulation Framework
-   Red Team • Offensive Security • Authorized Testing Only
+   Advanced Email Spoofing & Simulation Framework • Offensive Security • Authorized Testing Only
 ```
 
 ---
@@ -210,9 +209,9 @@ MIT License
 <div align="center">
 
 ## 💀 SpoofLab v1.0.0  
-Advanced Email Spoofing Detection & Simulation Framework  
+Advanced Email Spoofing  Simulation Framework  
 
 ⭐ Star the repo if you like it  
-🔥 Built for Hackers & Security Researchers  
+
 
 </div>
